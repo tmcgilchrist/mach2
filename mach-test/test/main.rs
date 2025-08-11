@@ -23,7 +23,6 @@ use mach2::memory_object_types::*;
 use mach2::message::*;
 use mach2::ndr::*;
 use mach2::port::*;
-use mach2::semaphore::*;
 use mach2::structs::*;
 use mach2::sync_policy::*;
 use mach2::task::*;
@@ -39,6 +38,7 @@ use mach2::vm_behavior::*;
 use mach2::vm_inherit::*;
 // FIXME: vm_page_size is not used => not tested?
 #[allow(unused_imports)]
+use mach2::semaphore::*;
 use mach2::vm_page_size::*;
 use mach2::vm_prot::*;
 use mach2::vm_purgable::*;
