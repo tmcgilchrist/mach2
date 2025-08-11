@@ -37,7 +37,7 @@ use mach2::vm_attributes::*;
 use mach2::vm_behavior::*;
 use mach2::vm_inherit::*;
 // FIXME: vm_page_size is not used => not tested?
-#[allow(unused_imports)]
+// #[allow(unused_imports)]
 use mach2::semaphore::*;
 use mach2::vm_page_size::*;
 use mach2::vm_prot::*;

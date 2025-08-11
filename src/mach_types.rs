@@ -1,9 +1,13 @@
 //! This module corresponds to `mach/mach_types.h`
 
 use port::mach_port_t;
+use vm_types::natural_t;
 
 pub type task_t = mach_port_t;
 pub type task_name_t = mach_port_t;
+pub type task_policy_set_t = mach_port_t;
+pub type task_policy_flavor_t = natural_t;
+pub type task_policy_t = *mut natural_t;
 pub type task_suspension_token_t = mach_port_t;
 pub type thread_t = mach_port_t;
 pub type thread_act_t = mach_port_t;
